@@ -1,11 +1,55 @@
+body {
+    background-image: url("mets.jpg");
+    font-style:oblique;
+    text-align: center;
+}
+
 header {
     display: flex;
     justify-content: center;
-    border: 1px solid black;
-    border-radius: 5px;
-    background-color:coral ;
+    border: 1px solid rgb(42, 90, 56);
+    border-radius: 1px;
+    background-color:rgb(42, 90, 56) ;
 }
 
 h1 {
-    color: white;
+    color: rgb(237, 243, 239);
+    font-size: 100px;    
+}
+
+.valikud {
+    height: 500px;
+    border: 2px solid rgba(0, 0, 0, 0);
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.pilt {
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+}
+
+.nimed {
+    font-size: 50px;
+    font-style:initial;
+    color: black;
+    display: inline-block;
+    background-color: antiquewhite;
+    font-weight: bold;
+    
+}
+
+a{
+    text-decoration: none;
 }
