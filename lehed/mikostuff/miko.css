@@ -1,0 +1,81 @@
+body {
+    background-image: url("mtaus.webp");
+}
+
+h1 {
+    margin-top: 50px;
+    text-align: center;
+    color: rgb(121, 91, 73);
+    font-size: 150px;
+    font-style:oblique;
+    font: weight 1000px;
+}
+.algus {
+    text-align: center;
+    color: rgb(237, 241, 192);
+    font-size: 50px;
+}
+.pilt {
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 98%;
+}
+.column {
+    float: left;
+    width: 50%;
+}
+  
+
+.pilt2 {
+    display:block;
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.taust {
+    display: flex;
+    justify-content:center;
+    background-color:rgba(129, 94, 54, 0.473);
+}
+.taust2 {
+    display: flex;
+    justify-content:center;
+    background-color:rgba(83, 60, 34, 0.993);
+}
+.lustakas {
+    color: rgb(255, 41, 173);
+    font-weight: bold;
+}
+
+.särtsakas {
+    color: rgb(250, 226, 8);
+    font-weight: bold;
+}
+.Fun-facts {
+    text-align:center;
+    font-size: 40px;
+    color: rgb(241, 208, 147);
+}
+.facts {
+    text-align:center;
+    font-size: 21px;
+    color: rgb(241, 208, 147);
+}
+.kes {
+    text-align:center;
+    font-size: 40px;
+    color: rgb(218, 204, 125);
+}
+.vastused {
+    text-align:center;
+    font-size: 20px;
+    color: rgb(218, 204, 125);
+}
+.video {
+    display:block;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+}
