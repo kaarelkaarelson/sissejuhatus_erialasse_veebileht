@@ -1,3 +1,14 @@
 h1 {
-    background-color: cadetblue;
+    margin-top: 50px;
+    text-align: center;
+    color:cornflowerblue;
+    font-style: oblique;
+    font-size: 150px;
+    font: weight 1000px;
+}
+
+.taust {
+    display: flex;
+    justify-content:center;
+    background-color:rgb(152, 186, 249);
 }
