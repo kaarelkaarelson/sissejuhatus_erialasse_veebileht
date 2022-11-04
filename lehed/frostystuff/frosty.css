@@ -1,13 +1,12 @@
 h1 {
-    margin-top: 50px;
+    margin-top: 25px;
     text-align: center;
-    color:rgb(100, 148, 237);
+    color:rgb(229, 55, 20);
     font-size: 150px;
-    font: weight 1000px;
 }
 
 body {
-    background-color:rgb(141, 174, 235);
+    background-color:rgb(235, 190, 141);
     font-style:oblique;
     text-align: center;
 }
@@ -15,7 +14,32 @@ body {
 header {
     display: flex;
     justify-content: center;
-    border: 1px solid rgb(141, 174, 235);
+    border: 1px solid rgb(235, 190, 141);
     border-radius: 1px;
-    background-color:rgb(141, 174, 235);
+    background-color:rgb(235, 190, 141);
+}
+
+.kirjeldus{
+    display: flex;
+    justify-content: center;
+    border: 1px solid rgb(235, 190, 141);
+    border-radius: 1px;
+    background-color:rgb(235, 190, 141);
+
+}
+
+.tähed {
+    text-align: center;
+    color:rgb(229, 55, 20);
+    font-size: 50px;
+
+}
+
+.taust{
+    display: flex;
+    justify-content:center;
+    border: 1px solid rgb(235, 190, 141);
+    border-radius: 1px;
+    background-color:rgb(235, 190, 141);
+    max-width: 100%;
 }
