@@ -1,45 +1,114 @@
 h1 {
-    margin-top: 25px;
+    margin-top: 0px;
+    font-style: oblique;
     text-align: center;
-    color:rgb(229, 55, 20);
+    color:rgb(241, 101, 143);
     font-size: 150px;
 }
 
-body {
-    background-color:rgb(235, 190, 141);
-    font-style:oblique;
-    text-align: center;
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.esimene{
+    background-image: url("images/taust.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 300vh;
+    background-color: rgb(237, 190, 169);
+}
+
+.teine{
+    margin-top: 680px;
+    background-color:rgb(237, 190, 169);
+    height: 100vh;
+}
+
+.pilt1{
+    display:block;
+    margin-left: 630px;
+    margin-right: 630px;
+    width: 30%;
+}
+
+.pilt2{
+    margin-top: 50px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 header {
     display: flex;
     justify-content: center;
-    border: 1px solid rgb(235, 190, 141);
+    font-style:oblique;
+    text-align: center;
+    border: 1px;
     border-radius: 1px;
-    background-color:rgb(235, 190, 141);
 }
 
 .kirjeldus{
     display: flex;
+    margin-top: 600px;
+    font-style:oblique;
+    text-align: center;
     justify-content: center;
-    border: 1px solid rgb(235, 190, 141);
-    border-radius: 1px;
-    background-color:rgb(235, 190, 141);
-
+    border: 0.5px solid rgb(255, 192, 203,0.8);
+    border-radius: 500px;
+    background-color:rgb(255, 194, 204,0.8);
 }
 
 .tähed {
     text-align: center;
-    color:rgb(229, 55, 20);
-    font-size: 50px;
+    color: rgb(241, 101, 143);
+    font-size: 40px;
 
 }
 
-.taust{
+.flex{
     display: flex;
-    justify-content:center;
-    border: 1px solid rgb(235, 190, 141);
+    justify-content: space-evenly;
+    border: 10px solid rgb(237, 190, 169);
     border-radius: 1px;
-    background-color:rgb(235, 190, 141);
-    max-width: 100%;
+    background-color:rgb(237, 190, 169) ;
+}
+
+.pilt {
+    height: 800px;
+    width: 550px;
+}
+
+li{
+    font-style: normal;
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+    text-align: center;
+}
+
+h2{
+    margin-top: 20px;
+    font-style: oblique;
+    text-align: center;
+    color: rgb(241, 101, 143);
+    font-size: 50px;
+}
+
+.kirjeldus2{
+    display: flex;
+    margin-top: 60px;
+    font-style:oblique;
+    text-align: center;
+    justify-content: center;
+    border: 20px solid rgb(255, 192, 203,0.8);
+    border-radius: 200px;
+    background-color:rgb(255, 194, 204,0.8);
+}
+
+.flex2{
+    display: flex;
+    justify-content: center;
+    border: 10px solid rgb(237, 190, 169);
+    border-radius: 1px;
+    background-color:rgb(237, 190, 169) ;
 }
