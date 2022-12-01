@@ -2,13 +2,21 @@
 
 ## Sisu
 
-See on veebileht meie koertest.
+See on veebileht meie kõikide koertest.
 
 
 ## Juhend
 
-Koerte vaatamiseks vajutada nupule.
+Koerte vaatamiseks vajutada koera pildile.
 
-- koer1
-- koer2
-- koer3
+- Miko
+- Frosty
+- Ruudi
+
+See viib külastaja tutvustuse juurde, kus saab lähedamalt tutvuda koeraga, kelle valisid. Saab lugeda iseloomustust, milline see koer on ja näha armsaid pilte temast. Samuti võib leida huvitavaid fakte. 
+
+##Tööjaotus
+
+Kaarel: Oma koera tutvustav leht, Javascript, veebilehe ülespanek
+Ruti: Oma koera tutvustav leht, pealeht, lehtede esteetiline kokkusobivus
+Roberta: Oma koera tutvustav leht, plaani esitamine, lehtede esteetiline kokkusobivus
