@@ -18,5 +18,7 @@ See viib külastaja tutvustuse juurde, kus saab lähedamalt tutvuda koeraga, kel
 ## Tööjaotus
 
 Kaarel: Oma koera tutvustav leht, Javascript, veebilehe ülespanek
+
 Ruti: Oma koera tutvustav leht, pealeht, lehtede esteetiline kokkusobivus
+
 Roberta: Oma koera tutvustav leht, plaani esitamine, lehtede esteetiline kokkusobivus
