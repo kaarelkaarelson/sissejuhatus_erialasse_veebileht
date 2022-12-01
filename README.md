@@ -15,7 +15,7 @@ Koerte vaatamiseks vajutada koera pildile.
 
 See viib külastaja tutvustuse juurde, kus saab lähedamalt tutvuda koeraga, kelle valisid. Saab lugeda iseloomustust, milline see koer on ja näha armsaid pilte temast. Samuti võib leida huvitavaid fakte. 
 
-##Tööjaotus
+## Tööjaotus
 
 Kaarel: Oma koera tutvustav leht, Javascript, veebilehe ülespanek
 Ruti: Oma koera tutvustav leht, pealeht, lehtede esteetiline kokkusobivus
