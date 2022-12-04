@@ -1,48 +1,48 @@
 body {
-    background-image: url("mtaus.webp");
+    background-image: url("pildid/mtaus.webp");
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 300vh;
+    background-color: #3c412afa;
 }
-
 h1 {
     margin-top: 50px;
     text-align: center;
-    color: rgb(121, 91, 73);
-    font-size: 150px;
+    color: rgba(13, 80, 13, 0.87);
+    font-size: 175px;
     font-style:oblique;
     font: weight 1000px;
 }
 .algus {
     text-align: center;
-    color: rgb(237, 241, 192);
+    color: #e3c8a6;
     font-size: 50px;
 }
 .pilt {
     display:block;
     margin-left: auto;
     margin-right: auto;
-    width: 98%;
+    width: 100%;
 }
 .column {
     float: left;
     width: 50%;
 }
-  
-
 .pilt2 {
-    display:block;
+    display: block;
     width: 75%;
     margin-left: auto;
     margin-right: auto;
-
 }
 .taust {
     display: flex;
     justify-content:center;
-    background-color:rgba(129, 94, 54, 0.473);
+    background-color:rgba(61, 114, 50, 0.452);
 }
 .taust2 {
     display: flex;
     justify-content:center;
-    background-color:rgba(83, 60, 34, 0.993);
+    background-color:#44a8419a;
 }
 .lustakas {
     color: rgb(255, 41, 173);
@@ -56,22 +56,23 @@ h1 {
 .Fun-facts {
     text-align:center;
     font-size: 40px;
-    color: rgb(241, 208, 147);
+    font-weight: bold;
+    color: #eed9be;
 }
 .facts {
     text-align:center;
     font-size: 21px;
-    color: rgb(241, 208, 147);
+    color: #eed9be;
 }
 .kes {
     text-align:center;
     font-size: 40px;
-    color: rgb(218, 204, 125);
+    color: #e3c8a6;
 }
 .vastused {
     text-align:center;
     font-size: 20px;
-    color: rgb(218, 204, 125);
+    color: #e3c8a6;
 }
 .video {
     display:block;
