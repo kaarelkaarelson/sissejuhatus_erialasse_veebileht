@@ -1,5 +1,7 @@
 body {
-    background-color: rgb(83, 148, 83);
+    background-color: rgb(113, 182, 113);
+    background-repeat: no-repeat;
+    background-size: cover;
     font-style:oblique;
     text-align: center;
 }
@@ -15,6 +17,13 @@ header {
 h1 {
     color: rgb(237, 243, 239);
     font-size: 100px;    
+}
+h2 {
+    display: flex;
+    justify-content: center;
+    border: 1px solid rgb(113, 182, 113);
+    border-radius: 1px;
+    font-size: 50px;
 }
 
 .valikud {
@@ -35,8 +44,8 @@ h1 {
 }
 
 .pilt {
-    height: 300px;
-    width: 300px;
+    height: 400px;
+    width: 400px;
     border-radius: 50%;
 }
 
