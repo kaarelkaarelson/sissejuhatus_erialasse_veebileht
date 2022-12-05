@@ -29,12 +29,19 @@ h2 {
 .valikud {
     height: 500px;
     border: 2px solid rgba(0, 0, 0, 0);
-    width: 80%;
+    width: 90%;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
 
+}
+
+@media only screen and (max-width: 800px) {
+  /* For mobile phones: */
+  .valikud {
+    flex-direction: column;
+  }
 }
 
 .flex {
@@ -44,8 +51,10 @@ h2 {
 }
 
 .pilt {
-    height: 400px;
-    width: 400px;
+    height: 300px;
+    max-height: 100%;
+    width: 300px;
+    max-width: 100%;
     border-radius: 50%;
 }
 
@@ -60,4 +69,14 @@ h2 {
 
 a{
     text-decoration: none;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    height: 100px;
+    border: 1px solid rgb(42, 90, 56);
+    background-color:rgb(42, 90, 56) ;
 }
