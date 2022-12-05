@@ -1,8 +1,19 @@
-const nupp = document.getElementsByClassName("nimed");
+const addShakeToElements = () => {
+  console.log("laetud");
+  const pildid = document.getElementsByTagName("img");
+  const nimed = document.getElementsByClassName("nimed");
 
-for (let i; i < nupp.length; i++) {
-  console.log(nupp[i]);
+  for (const pilt of pildid) {
+    pilt.classList.add("shake");
+  }
+
+  for (const nimi of nimed) {
+    nimi.classList.add("shake");
+  }
+};
+
+if (document.addEventListener) {
+  window.addEventListener("load", addShakeToElements, false);
+} else {
+  window.attachEvent && window.attachEvent("onload", addShakeToElements);
 }
-
-nupp.style = "background-color: red";
-console.log("Tere!");
